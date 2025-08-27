@@ -18,3 +18,11 @@ h2{
     font-size:20px;
     font-weight:bold;
 }
+li{
+    color:#37474F;
+    font-style:italic;
+}
+h1.favorite-places{
+    text-align:left;
+
+}
