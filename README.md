@@ -19,9 +19,9 @@ This project is a website that i created when i started learning HTML.
 * link Css with HTML code in it
 
 
-## Known Bugs
-
-The website is plain.
+## Future Improvement
+# Improve styling and make it responsive
+# learn more about alignment
 
 ## License
 This project is licensed under MIT License
