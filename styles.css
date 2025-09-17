@@ -88,3 +88,26 @@ footer{
 #favorite-places p{
     line-height:20px;
 }
+.restaurant{
+    margin:0 auto;
+    margin-right:500px;
+    margin-left:500px;
+    background-color:white;
+}
+.restaurant .menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+    margin-right:40px;
+}
+.restaurant h2, .restaurant p{
+    text-align:center;
+}
+.restaurant p, .restaurant li{
+    font-family:sans-serif;
+}
+span{
+    border-bottom:3px solid #FFC107;
+}
+
