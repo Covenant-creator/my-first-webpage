@@ -1,16 +1,17 @@
-# Oniyinde Covenant Osas
+# Project-Title - Project Title: One-Month Web Development Journey Showcase
+This repository serves as a demonstration of fundamental HTML and CSS mastery achieved in my first month of a Web Development Journey. The goal was to build a cohesive, multi-page website that is fully responsive.
+## Features
+* **Multi-page Architecture:** An external homepage linking to three dedicated webpages.
+* **Semantic HTML:** Clean well structured HTML.
+* **Header:** It houses the Website logo and it is used in all the webpages.
+* **Footer:** It contains copyright.
+* **Flexbox:** It was used to create **Side by Side Content** and **Dynamic Menu** 
+* **CSS Principles:** Demonstrated control over the **Box Model**, **Custom Fonts**, and **Centralized Content Containers** for a professional look.
 
-#### Demonstration of sites showcasing HTML,CSS and jQuery.
-
-#### By  Oniyinde Covenant
 
 ## Technologies Used
-
-* Vscode
-
-## Description
-This project is a website that i created when i started learning HTML.
-
+* **HTML5**
+* **CSS**
 
 ## Setup/Installation Requirements
 
@@ -20,8 +21,9 @@ This project is a website that i created when i started learning HTML.
 
 
 ## Future Improvement
-# Improve styling and make it responsive
-# learn more about alignment
+* **Advanced CSS**
+* **Introduce Interactivity (JavaScript)**
+* **Professional Workflow**
 
 ## License
 This project is licensed under MIT License
