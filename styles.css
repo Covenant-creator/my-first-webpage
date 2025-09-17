@@ -101,13 +101,37 @@ footer{
     list-style: none;
     margin-right:40px;
 }
-.restaurant h2, .restaurant p{
+.restaurant h2, .restaurant p, .favoritethings p, .favoritethings h2{
     text-align:center;
 }
-.restaurant p, .restaurant li{
+.restaurant p, .restaurant li, .favoritethings p{
     font-family:sans-serif;
 }
 span{
     border-bottom:3px solid #FFC107;
 }
-
+.favoritethings{
+    margin:0 auto;
+    background-color:white;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:200px;
+    margin-bottom:200px;
+}
+.favoritethings ol{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.favoritethings img{
+    max-width:100%;
+    height:auto;
+    margin-top:10px;
+    border-radius:30px;
+}
+.favoritethings ol li{
+    padding:30px;
+}
+.favoritethings li a{
+    font-weight:bold;
+}
