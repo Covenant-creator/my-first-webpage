@@ -18,6 +18,9 @@ a:hover{
     color:magenta;
     text-decoration: overline;
 }
+main{
+    font-family:sans-serif;
+}
  .logo a{
     color:#FFC107;
     word-spacing:2px;
@@ -35,7 +38,7 @@ body{
 .first-section{
     flex-grow: 1;
 }
-.first-section h1{
+h1{
     text-align:center;
     font-weight:bold;
     margin-bottom:10px;
@@ -50,10 +53,10 @@ body{
     padding:10px;
     font-weight:bold;
 }
-.link{
+a{
     color:black;
 }
-.first-section h2{
+h2{
     color:#FFC107;
 }
 footer{
@@ -61,4 +64,27 @@ footer{
     background-color: black;
     color:white;
     bottom:0;
+}
+#favorite-places{
+    max-width:1000px;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+#favorite-places li{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+#favorite-places .img-container, #favorite-places .text-container{
+    margin-right:40px;
+}
+#favorite-places .img-container img{
+   width:500px;
+}
+#favorite-places .main-content{
+    text-align:center
+}
+#favorite-places p{
+    line-height:20px;
 }
