@@ -14,6 +14,7 @@ header a{
     padding:20px;
     text-decoration:none;
 }
+
 a:hover{
     color:magenta;
     text-decoration: overline;
@@ -68,25 +69,36 @@ footer{
 #favorite-places{
     max-width:1000px;
     margin:0 auto;
-    background-color: #ffffff;
 }
 #favorite-places li{
     display:flex;
     align-items:center;
     margin-bottom:20px;
-    
 }
 #favorite-places .img-container, #favorite-places .text-container{
-    margin-right:40px;
+    margin-right:20px;
+}
+#favorite-places .first{
+    border:1px white;
+    background-color: white;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:20px;
+}
+#favorite-places .first a{
+    margin-top:none;
 }
 #favorite-places .img-container img{
-   width:500px;
+   width:200px;
+   height:100px;
 }
 #favorite-places .main-content{
     text-align:center
 }
 #favorite-places p{
     line-height:20px;
+    margin-bottom:none;
 }
 .restaurant{
     margin:0 auto;
@@ -112,22 +124,31 @@ span{
 }
 .favoritethings{
     margin:0 auto;
-    background-color:white;
     margin-left:200px;
     margin-right:200px;
     margin-top:200px;
     margin-bottom:200px;
+    background-color:white;
 }
-.favoritethings ol{
-    display:flex;
-    justify-content: center;
-    align-items:center;
+.favoritethings  p{
+    text-align:center
 }
-.favoritethings img{
+.favoritethings  ul{
+    justify-content:center;
+    list-style-type: none;
+}
+
+.favoritethings  img{
     max-width:100%;
     height:auto;
     margin-top:10px;
     border-radius:30px;
+    margin-left:250px;
+    margin-right:250px;
+    transition:box-shadow 0.3 ease;/*This is used for box shadow*/
+}
+.favoritethings img:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);/*This is used for the shadow with hover effect*/
 }
 .favoritethings ol li{
     padding:30px;
